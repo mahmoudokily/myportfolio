@@ -12,13 +12,11 @@ export default class Portfolio extends Component {
             <iframe
               title="p1"
               className="iframe"
-              src="https://portgolio2021.herokuapp.com/#hero"
+              src="https://portgolio2021.herokuapp.com/"
             ></iframe>
             <CardBody>
               <CardTitle>Project 1</CardTitle>
-              <CardText>
-                Sito web personale realizzato utilizzando Reactjs && css
-              </CardText>
+
               <CardText>
                 <small className="text-muted">
                   <a href="https://portgolio2021.herokuapp.com/">
@@ -36,14 +34,13 @@ export default class Portfolio extends Component {
             ></iframe>
 
             <CardBody>
-              <CardTitle>Card Title</CardTitle>
+              <CardTitle>Project 2</CardTitle>
               <CardText>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </CardText>
-              <CardText>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">
+                  <a href="https://floating-sea-18480.herokuapp.com/">
+                    visit the website
+                  </a>
+                </small>
               </CardText>
             </CardBody>
           </Card>
@@ -54,14 +51,12 @@ export default class Portfolio extends Component {
               src="https://momuzio.herokuapp.com/"
             ></iframe>
             <CardBody>
-              <CardTitle>Card Title</CardTitle>
+              <CardTitle>Project 3</CardTitle>
+
               <CardText>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </CardText>
-              <CardText>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">
+                  <a href="https://momuzio.herokuapp.com/">visit the website</a>
+                </small>
               </CardText>
             </CardBody>
           </Card>
@@ -73,14 +68,14 @@ export default class Portfolio extends Component {
             ></iframe>
 
             <CardBody>
-              <CardTitle>Card Title</CardTitle>
+              <CardTitle>Project 4</CardTitle>
+
               <CardText>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </CardText>
-              <CardText>
-                <small className="text-muted">Last updated 3 mins ago</small>
+                <small className="text-muted">
+                  <a href="https://morning-wildwood-26582.herokuapp.com/">
+                    visit the website
+                  </a>
+                </small>
               </CardText>
             </CardBody>
           </Card>
