@@ -8,7 +8,7 @@ export default class Portfolio extends Component {
         <h3>portfolio</h3>
         <hr></hr>
         <div className="grid">
-          <Card>
+          <Card className="grid-item">
             <iframe
               title="p1"
               className="iframe"
@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
               </CardText>
             </CardBody>
           </Card>
-          <Card>
+          <Card className="grid-item">
             <iframe
               title="p2"
               className="iframe"
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
               </CardText>
             </CardBody>
           </Card>
-          <Card>
+          <Card className="grid-item">
             <iframe
               title="p3"
               className="iframe"
@@ -60,7 +60,7 @@ export default class Portfolio extends Component {
               </CardText>
             </CardBody>
           </Card>
-          <Card>
+          <Card className="grid-item">
             <iframe
               title="p4"
               className="iframe"
@@ -73,6 +73,25 @@ export default class Portfolio extends Component {
               <CardText>
                 <small className="text-muted">
                   <a href="https://morning-wildwood-26582.herokuapp.com/">
+                    visit the website
+                  </a>
+                </small>
+              </CardText>
+            </CardBody>
+          </Card>
+          <Card className="grid-item">
+            <iframe
+              title="p4"
+              className="iframe"
+              src="https://online-shop2121.herokuapp.com/"
+            ></iframe>
+
+            <CardBody>
+              <CardTitle>Project 4</CardTitle>
+
+              <CardText>
+                <small className="text-muted">
+                  <a href="https://online-shop2121.herokuapp.com/">
                     visit the website
                   </a>
                 </small>
