@@ -10,7 +10,8 @@
     "react-fontawesome": "^1.6.1",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.1",
-    "serve": "^11.3.2"
+    "serve": "^11.3.2",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "dev": "react-scripts start",
